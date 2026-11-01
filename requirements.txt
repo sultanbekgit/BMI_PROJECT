@@ -1,10 +1,10 @@
-# Pin exact versions after the first successful run on a fresh Colab runtime,
-# e.g. by running `pip freeze | grep -i -E "mne|moabb|scikit-learn|numpy|scipy|pandas|matplotlib"`
-# and replacing the lines below with the printed "package==version" lines.
-mne
+# mne and numpy are the versions the final notebook run printed; pin the others the same way after a fresh run
+# (`pip freeze | grep -i -E "moabb|scikit-learn|scipy|pandas|matplotlib|nilearn"`).
+mne==1.13.2
+numpy==2.5.3
 moabb
 scikit-learn
-numpy
 scipy
 pandas
 matplotlib
+nilearn
