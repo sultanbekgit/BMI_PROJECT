@@ -2,7 +2,6 @@
 
 Project: Session-to-session drift on BNCI2014-004
 
-Keep this log dated. Add a row for work that does not show up clearly in commits (reading papers, pair debugging, report writing, reviews).
 
 ## Roles
 
